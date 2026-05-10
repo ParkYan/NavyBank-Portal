@@ -10,6 +10,37 @@ body {
     color: #333;
 }
 
+header {
+    position: relative;
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 51, 102, 0.6);
+    padding: 15px 0;
+    z-index: 10;
+}
+ nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
 nav a {
     text-decoration: none;
     color: white;
