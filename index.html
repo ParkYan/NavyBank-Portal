@@ -11,8 +11,16 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="overlay-nav">
+            <!-- Hamburger Menu for Mobile -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-links">
+                <label for="menu-toggle" class="close-menu">
+                    <i class="fas fa-times"></i>
+                </label>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="history.html">About</a></li>
                 <li><a href="products.html">Products</a></li>
