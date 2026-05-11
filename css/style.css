@@ -5,9 +5,16 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    /* Improves readability */
     color: #333;
+    /* Dark grey is easier on the eyes than pure black */
+}
+
+h1,h2,h3,h4 {
+    font-weight: 700;
+    /* Makes headings bold and professional */
 }
 
 header {
@@ -57,7 +64,8 @@ nav ul li a:hover {
 }
 
 nav ul li a.active {
-        font-weight: bold; /* Move it here */
+    font-weight: bold;
+    /* Move it here */
 }
 
 /* The .active class highlights the current page link */
@@ -71,7 +79,7 @@ nav ul li a.active::after {
     width: 60%;
     height: 3px;
     background-color: #b19111;
-    border-radius: 2px; 
+    border-radius: 2px;
 }
 
 h1 {
