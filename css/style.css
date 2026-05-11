@@ -55,6 +55,16 @@ nav ul li a:hover {
     color: #b19111;
 }
 
+/* The .active class highlights the current page link */
+nav ul li a.active {
+    color: #b19111;
+    /* Your NaviBank Gold */
+    font-weight: bold;
+    border-bottom: 2px solid #b19111;
+    /* Optional: adds a nice underline */
+    padding-bottom: 5px;
+}
+
 h1 {
     position: absolute;
     width: 1px;
