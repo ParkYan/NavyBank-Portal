@@ -111,7 +111,7 @@ h1 {
         width: 50%;
         /* Take up most of the mobile screen */
         height: 100vh;
-        background-color: rgba(0, 51, 102, 0.6);
+        background-color: rgb(0, 51, 102);
         flex-direction: column;
         /* Stack links vertically */
         align-items: center;
