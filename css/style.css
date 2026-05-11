@@ -165,6 +165,7 @@ footer h3, footer h4 {
 
 .footer-links a:hover {
     color: #b19111; /* Gold hover to match your menu */
+padding-left: 5px;
 }
 .social-icons a {
     color: white;
