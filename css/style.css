@@ -65,10 +65,9 @@ nav ul li a:hover {
 
 nav ul li a.active {
     font-weight: bold;
-    /* Move it here */
 }
 
-/* The .active class highlights the current page link */
+
 nav ul li a.active::after {
     content: "";
     position: absolute;
@@ -81,7 +80,7 @@ nav ul li a.active::after {
     background-color: #b19111;
     border-radius: 2px;
 }
-
+/*
 h1 {
     position: absolute;
     width: 1px;
@@ -91,6 +90,50 @@ h1 {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border-width: 0;
+}
+*/
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(180deg, #003366 0%, rgba(0, 51, 102, 0.7) 100%);
+    background-size: cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #b19111;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature-item i {
+    font-size: 3rem;
+    color: #003366;
+    margin-bottom: 20px;
 }
 
 /* Hide mobile elements by default (Desktop view) */
