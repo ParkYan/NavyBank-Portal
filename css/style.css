@@ -12,7 +12,10 @@ body {
     /* Dark grey is easier on the eyes than pure black */
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: 700;
     /* Makes headings bold and professional */
 }
@@ -118,7 +121,7 @@ nav ul li a.active::after {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    gap: 50px; 
+    gap: 50px;
 }
 
 .feature-item i {
@@ -288,29 +291,35 @@ footer h4 {
 }
 
 .about-text {
-    flex: 1;/*takes up exactly 50% of the container*/
+    flex: 1;
+    /*takes up exactly 50% of the container*/
     line-height: 1.5;
 
 }
 
-.about-text h2, .history-timeline h2 {
+.about-text h2,
+.history-timeline h2 {
     color: #003366;
     margin-bottom: 20px;
 }
 
 .about-image {
-    flex: 1;/*takes up exactly 50% of the container*/
+    flex: 1;
+    /*takes up exactly 50% of the container*/
 }
 
 .about-image img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
 .history-timeline {
-    text-align: center; /* Centers the H2 and the container */
+    text-align: center;
+    /* Centers the H2 and the container */
     padding: 80px 20px;
-    background-color: #f4f7f9; /* Subtle contrast from the white section above */
+    background-color: #f4f7f9;
+    /* Subtle contrast from the white section above */
 }
 
 .history-timeline h2 {
@@ -324,17 +333,17 @@ footer h4 {
 }
 
 .timeline-item {
-    max-width: 700px; 
-    margin: 0 auto 30px auto; 
-    text-align: left; 
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    text-align: left;
     padding: 25px;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /*Products page styles*/
-.products-main h2{
+.products-main h2 {
     text-align: center;
     color: #003366;
     margin-top: 40px;
@@ -355,11 +364,12 @@ footer h4 {
 
 .calculator {
     flex: 1;
-    background: #003366; /* NaviBank Navy */
+    background: #003366;
+    /* NaviBank Navy */
     color: white;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .calculator input {
@@ -374,24 +384,29 @@ footer h4 {
     margin-top: 20px;
     padding: 15px;
     background: rgba(255, 255, 255, 0.1);
-    border-left: 4px solid #b19111; /* NaviBank Gold */
+    border-left: 4px solid #b19111;
+    /* NaviBank Gold */
 }
 
 /*"Learn More" pop-up modal*/
 .modal {
-    display: none; 
+    display: none;
     position: fixed;
     z-index: 1000;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0, 51, 102, 0.8); /* Semi-transparent Navy */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 51, 102, 0.8);
+    /* Semi-transparent Navy */
 }
 
 .modal-content {
     background-color: #fff;
     margin: 15% auto;
     padding: 30px;
-    border-left: 8px solid #b19111; /* NaviBank Gold accent */
+    border-left: 8px solid #b19111;
+    /* NaviBank Gold accent */
     width: 50%;
     border-radius: 10px;
     position: relative;
@@ -399,7 +414,8 @@ footer h4 {
 
 .close-btn {
     position: absolute;
-    right: 20px; top: 10px;
+    right: 20px;
+    top: 10px;
     font-size: 28px;
     cursor: pointer;
     color: #003366;

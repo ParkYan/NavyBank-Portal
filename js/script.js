@@ -14,7 +14,7 @@ function openModal(product) {
 }
 
 // Close the modal when clicking the (x) or clicking outside the window
-window.onclick = function(event) {
+window.onclick = function (event) {
     const modal = document.getElementById("productModal");
     if (event.target == modal || event.target.className == "close-btn") {
         modal.style.display = "none";
@@ -46,6 +46,6 @@ function calculateInterest() {
     const total = principalGrowth + contributionGrowth;
     const formattedTotal = total.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 
-    document.getElementById('calc-result').innerHTML = 
+    document.getElementById('calc-result').innerHTML =
         `In ${years} years, your total estimated balance is <strong>${formattedTotal}</strong>.`;
 }
