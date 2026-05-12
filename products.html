@@ -31,9 +31,49 @@
             </ul>
         </nav>
         <img src="images/NaviBank_header.png" alt="NaviBank Portal Banner featuring an adult Asian woman">
-        <h1>NaviBank Portal</h1>
     </header>
-    <main>
+    <main class="products-main">
+        <h2>Banking Products for Newcomers</h2>
+        <section class="products-container">
+            <div class="product-info">
+                
+                <div class="product">
+                    <h3>High-Yield Savings</h3>
+                    <p>Start growing your future with a 4.50% APY. No hidden fees, just pure growth.</p>
+                </div><br>
+                <div class="product">
+                    <h3>Credit Builder Account</h3>
+                    <p>Designed specifically for those without a US credit history. Secure your future today.</p>
+                </div><br>
+                <div class="product">
+                    <h3>Traditional & Roth IRA</h3>
+                    <p>Invest in your future with tax-advantaged retirement accounts. We help you understand the path to
+                        long-term stability.</p>
+                </div><br>
+                <div class="product">
+                    <h3>Self-Directed Investing</h3>
+                    <p>Buy stocks and ETFs with zero commissions. Our mentor tools help you understand market trends
+                        before you trade.</p>
+                </div>
+            </div>
+
+            <div class="calculator">
+                <h3>Savings Growth Calculator</h3>
+                <p>See how your "Digital Mentor" helps your money grow!</p>
+
+                <label for="principal">Starting Deposit ($)</label>
+                <input type="number" id="principal" placeholder="e.g. 1000">
+
+                <label for="years">Years to Save</label>
+                <input type="number" id="years" placeholder="e.g. 5">
+
+                <button onclick="calculateInterest()" class="btn-primary">Calculate Growth</button>
+
+                <div id="calc-result" class="result-display">
+                    Your estimated balance will appear here.
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->

@@ -332,3 +332,47 @@ footer h4 {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
+
+/*Products page styles*/
+.products-main h2{
+    text-align: center;
+    color: #003366;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.products-container {
+    display: flex;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.calculator {
+    flex: 1;
+    background: #003366; /* NaviBank Navy */
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.calculator input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.result-display {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #b19111; /* NaviBank Gold */
+}
