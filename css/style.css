@@ -292,7 +292,6 @@ footer h4 {
 
 .about-text {
     flex: 1;
-    /*takes up exactly 50% of the container*/
     line-height: 1.5;
 
 }
@@ -305,7 +304,6 @@ footer h4 {
 
 .about-image {
     flex: 1;
-    /*takes up exactly 50% of the container*/
 }
 
 .about-image img {
@@ -316,10 +314,8 @@ footer h4 {
 
 .history-timeline {
     text-align: center;
-    /* Centers the H2 and the container */
     padding: 80px 20px;
     background-color: #f4f7f9;
-    /* Subtle contrast from the white section above */
 }
 
 .history-timeline h2 {
@@ -362,14 +358,18 @@ footer h4 {
     flex: 1;
 }
 
+/*Calculator*/
+
 .calculator {
     flex: 1;
     background: #003366;
-    /* NaviBank Navy */
     color: white;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.calculator h3 {
+    text-align: center;
 }
 
 .calculator input {
@@ -385,10 +385,61 @@ footer h4 {
     padding: 15px;
     background: rgba(255, 255, 255, 0.1);
     border-left: 4px solid #b19111;
-    /* NaviBank Gold */
+}
+
+/* Calculator Labels */
+.calculator-card label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Select Dropdown */
+#strategy {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    background-color: #ffffff;
+    border: 2px solid #b19111;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #003366;
+    cursor: pointer;
+    appearance: none;
+    /* Removes default browser arrow to style our own */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="%23003366"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+#strategy:focus {
+    outline: none;
+    border-color: #ffd700;
+    /* Brighter gold on focus */
+    box-shadow: 0 0 8px rgba(177, 145, 17, 0.5);
 }
 
 /*"Learn More" pop-up modal*/
+.learn-more-btn {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background-color: white;
+    color: #003366; /* NaviBank Navy */
+    border: 2px solid #b19111; /* NaviBank Gold */
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.learn-more-btn:hover {
+    background-color: #b19111;
+    color: white;
+}
+
 .modal {
     display: none;
     position: fixed;
