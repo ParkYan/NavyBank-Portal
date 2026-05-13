@@ -59,8 +59,47 @@ function calculateInterest() {
     // Total balance after the specified years
     const total = principalGrowth + contributionGrowth;
     const formattedTotal = total.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
-    
+
     // Display the result
     document.getElementById('calc-result').innerHTML =
         `In ${years} years, your total estimated balance is <strong>${formattedTotal}</strong>.`;
+}
+
+// Form Validation for the contact us page
+const contactForm = document.getElementById('contactForm');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+        // Prevent the page from refreshing immediately
+        e.preventDefault();
+
+        // Trim the input values to remove extra spaces
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const message = document.getElementById('message').value.trim();
+
+        // Validation Check: Name length
+        if (name.length < 2) {
+            alert("Please enter your full name.");
+            return;
+        }
+        // Email Validation
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+        // Validation Check: Empty message
+        if (message.length < 5) {
+            alert("Please leave a brief message so we can better assist you.");
+            return;
+        }
+
+        // If validation passes, show success message
+        alert(`Thank you, ${name}! Your message has been sent to the NaviBank team. We will reply to ${email} shortly.`);
+
+        // Clear the form fields
+        contactForm.reset();
+    });
 }
