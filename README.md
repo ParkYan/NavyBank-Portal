@@ -1,26 +1,13 @@
-# NaviBank Portal 🏦
-**Empowering Newcomers to Navigate the US Banking System**
-
-The NaviBank Portal is a professional digital mentor platform designed to provide clear, accessible, and structured financial guidance. This project was developed as the Final Project for **IMED 2315 (Spring 2026)** at St. Philip's College.
-
-## 🌟 Purpose & Mission
-Moving to a new country or navigating complex financial systems can be overwhelming. NaviBank serves as a "digital mentor" to bridge the gap in financial literacy, offering a user-friendly interface that explains essential banking services, history, and contact resources.
-
-## 🛠️ Features
-* **Responsive Design:** Fully optimized for desktop and mobile viewing.
-* **Educational Resources:** Dedicated sections for banking history and product explanations.
-* **User-Centric Navigation:** Consistent and intuitive menu structure across all pages.
-* **Professional Branding:** Themed visual identity focused on trust and accessibility.
-
-## 💻 Tech Stack
-* **HTML5:** Semantic structure for accessibility.
-* **CSS3:** Custom styling and responsive layouts.
-* **Visual Studio Code:** Primary development environment.
-* **Git/GitHub:** Version control and project hosting.
+## 🛠️ Features (Updated)
+- **Interactive Banking Tools:** Includes a "Savings Growth Calculator" that uses JavaScript to project financial growth based on user-selected strategies.
+- **Dynamic Content Modals:** Product details are handled through a single HTML template and a JavaScript "data brain," demonstrating efficient DOM manipulation.
+- **Robust Form Validation:** The Contact Us page features custom client-side validation using Regular Expressions (Regex) to ensure data integrity.
+- **Modern CSS Layouts:** Utilizes Flexbox `gap` and `active` states to provide a tactile, responsive user experience.
 
 ## 📂 Project Structure
-* `index.html` - The welcoming home page and portal overview.
-* `history.html` - Contextual background on banking evolution.
-* `products.html` - Detailed breakdown of financial services offered.
-* `contactus.html` - Direct lines of communication for support.
-* `/images` - Optimized assets, including the NaviBank branding and hero images.
+- `index.html` - Home page & portal overview.
+- `history.html` - Contextual background on banking evolution.
+- `products.html` - Financial services breakdown with interactive calculator and modals.
+- `contactus.html` - Contact form with custom JavaScript validation logic.
+- `js/script.js` - Centralized logic for all interactive features.
+- `css/style.css` - Custom styles including NaviBank branding and responsive layouts.
