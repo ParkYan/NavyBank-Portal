@@ -1,3 +1,4 @@
+**Live Demo:** [View Live Website](https://parkyan.github.io/NavyBank-Portal/)
 ## 🛠️ Features (Updated)
 - **Interactive Banking Tools:** Includes a "Savings Growth Calculator" that uses JavaScript to project financial growth based on user-selected strategies.
 - **Dynamic Content Modals:** Product details are handled through a single HTML template and a JavaScript "data brain," demonstrating efficient DOM manipulation.
